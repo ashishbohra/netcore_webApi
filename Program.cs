@@ -1,4 +1,5 @@
-using IndexerLogger;
+
+using LoggerManager;
 using TokenManager;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,7 +25,7 @@ var summaries = new[]
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
 
-app.MapGet("/weatherforecast", (IndexerLogger.ILogger logger) =>
+app.MapGet("/weatherforecast", (LoggerManager.ILogger logger) =>
 {
     logger.Info($"get weather  info");
     var forecast =  Enumerable.Range(1, 5).Select(index =>

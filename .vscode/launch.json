@@ -16,7 +16,7 @@
       },
       "env": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "INDEXER_BASEURL": "http://localhost:5000",
+        "INDEXER_BASEURL": "https://localhost:9200",
         "INDEXER_SERVICENAME": "questionnaire",
         "INDEXER_INDEXNAME": "uat_stest_logs",
         "SECRET_KEY" : "KaZubjFuZz1zB42jP4M9t7Eq8w5RQ2XxDtxB3sNp6oo="
