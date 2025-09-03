@@ -9,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 builder.Services.AddIndexerLogging();
 builder.Services.AddTokenReader();
+builder.Services.AddEncryptionManager();
 
 var app = builder.Build();
 

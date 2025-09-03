@@ -8,8 +8,8 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.5" />
-    <PackageReference Include="TokenManager" Version="1.0.1" />
-    <PackageReference Include="LoggerManager" Version="1.0.3" />
+    <PackageReference Include="TokenManager" Version="1.0.2" />
+    <PackageReference Include="LoggerManager" Version="1.0.4" />
   </ItemGroup>
 
 </Project>
